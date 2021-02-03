@@ -1,0 +1,196 @@
+﻿.intro-2 {
+    background: url("../../../images/background/forest.1.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #3f51b5 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #3f51b5 !important;
+    }
+}
+
+.card {
+    background-color: rgba(229, 228, 255, 0.2);
+}
+
+.md-form label {
+    color: #ffffff;
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+@media (max-width: 320px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 2000px;
+    }
+}
+
+.card {
+    margin-top: 80px !important;
+    /*margin-bottom: -45px;*/
+}
+
+.md-form input[type=text]:focus:not([readonly]),
+.md-form input[type=password]:focus:not([readonly]) {
+    border-bottom: 1px solid #8EDEF8;
+    box-shadow: 0 1px 0 0 #8EDEF8;
+}
+
+    .md-form input[type=text]:focus:not([readonly]) + label,
+    .md-form input[type=password]:focus:not([readonly]) + label {
+        color: #8EDEF8;
+    }
+
+.md-form .form-control {
+    color: #fff;
+}
+
+.form-control {
+    padding-top: 1rem !important;
+    padding-bottom: 0rem !important;
+}
+
+.navbar.navbar-dark form .md-form input:focus:not([readonly]) {
+    border-color: #8EDEF8;
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #3f51b5 !important;
+    }
+}
+
+@-webkit-keyframes chartjs-render-animation {
+    from {
+        opacity: 0.99
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes chartjs-render-animation {
+    from {
+        opacity: 0.99
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.chartjs-render-monitor {
+    -webkit-animation: chartjs-render-animation 0.001s;
+    animation: chartjs-render-animation 0.001s;
+}
+
+.md-form label.active {
+    font-size: .8rem;
+    -webkit-transform: translateY(-90%);
+    -ms-transform: translateY(-90%);
+    transform: translateY(-90%);
+}
+
+.card {
+    word-wrap: unset;
+}
+
+.btn {
+    word-wrap: unset;
+}
+
+.form-buttons {
+    padding: 11px 11px 11px 11px !important;
+}
+
+.caret {
+    color: #fff !important;
+}
+
+.select-dropdown {
+    color: #fff !important;
+}
+
+.card {
+    background-color: rgba(27, 26, 39, 0.67) !important;
+}
+
+.top-nav-collapse {
+    background-color: #1c2331 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: #1c2331 !important;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0px 9999px transparent !important;
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+    input:-webkit-autofill:focus {
+        -webkit-box-shadow: 0 0 0 50px transparent inset !important;
+        background-color: transparent !important;
+        color: #fff !important;
+    }
+
+.optgroup {
+    background: linear-gradient(40deg,#f95169,#f95169) !important;
+    /*background-color: #f95169 !important;*/
+    text-transform: uppercase !important;
+}
+
+    .optgroup span {
+        color: white !important;
+        font-weight: bold;
+    }
+
+.dropdown-content > .disabled > span {
+    display: none;
+}
+
+.dropdown-content {
+    max-height: 230px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(27, 26, 39, 0.67)
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: black;
+    }

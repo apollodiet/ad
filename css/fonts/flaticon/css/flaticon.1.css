@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Flaticon";
+    src: url(../fonts/Flaticon.eot);
+    src: url(../fonts/Flaticon.eot?#iefix) format("embedded-opentype"),url(../fonts/Flaticon.woff) format("woff"),url(../fonts/Flaticon.ttf) format("truetype"),url(../fonts/Flaticon.svg#Flaticon) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Flaticon";
+    src: url(../fonts/Flaticon.svg#Flaticon) format("svg")
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 25px;
+    font-style: normal
+}
+
+.flaticon-stretching-exercises:before {
+    content: "\f100"
+}
+
+.flaticon-person-walking:before {
+    content: "\f101"
+}
+
+.flaticon-standing-up-man:before {
+    content: "\f102"
+}
+
+.flaticon-cyclist-silhouette:before {
+    content: "\f103"
+}
+
+.flaticon-olympic-weightlifting:before {
+    content: "\f104"
+}
+
+.flaticon-dumbbells-exercise:before {
+    content: "\f105"
+}
